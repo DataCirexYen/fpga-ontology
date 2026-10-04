@@ -1,6 +1,8 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/banner-dark.png"><img src="docs/img/banner-light.png" alt="FPGA Ontology" width="100%"></picture>
 
-One connected model of an FPGA project that people and LLM agents read the same way, with no loose ends. Boards, kernels, builds, gates, requirements and work-order steps are objects with stable IDs. Every dependency is an explicit link. Every result arrives as an immutable evidence record instead of an overwritten cell, so an agent pointed at the local API sees what is done, what is blocked on what, and the proof behind each claim.
+<h3 align="center">One connected model of an FPGA project that people and LLM agents read the same way</h3>
+
+Boards, kernels, builds, gates, requirements and work-order steps are objects with stable IDs. Every dependency is an explicit link. Every result arrives as an immutable evidence record instead of an overwritten cell, so an agent pointed at the local API sees what is done, what is blocked on what, and the proof behind each claim.
 
 Local-first and free: Python 3.10, SQLite and a browser. The UI is built on Palantir's open-source Blueprint components; this is an independent project, not affiliated with Palantir.
 
