@@ -1,0 +1,5 @@
+id,kernel,board,tool,tool_version,strategy,target_mhz,luts,dsps,brams,artifact
+B-0001,K-SOBEL,U55C-01,Vitis,2024.1,Performance_Explore,200,14870,36,24,sobel_u55c.xclbin
+B-0002,K-AESGCM,U55C-01,Vitis,2024.1,Default,300,88410,0,64,aesgcm_u55c.xclbin
+B-0003,K-AESGCM,U200-01,Vitis,2024.1,Congestion_SpreadLogic_high,300,87955,0,64,aesgcm_u200.xclbin
+B-0004,K-LDPC,KV260-01,Vivado,2024.1,Default,250,52360,128,110,ldpc_kv260.bit

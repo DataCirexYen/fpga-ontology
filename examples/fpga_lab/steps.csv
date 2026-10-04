@@ -1,0 +1,7 @@
+id,step,board,instruction,release_gate
+S-01,1,U55C-01,Power on host and confirm the card enumerates with xbutil examine.,G3
+S-02,2,U55C-01,Program the xclbin and run the host loopback smoke test.,G3
+S-03,3,U55C-01,Run the full regression against the CPU golden and archive the log.,G4
+S-04,4,U55C-01,Measure board power at the target clock with the inline meter.,G4
+S-05,1,KV260-01,Flash the boot image and bring up PetaLinux over the serial console.,G3
+S-06,2,KV260-01,Load the bitstream through fpgautil and verify the AXI-Lite ID register.,G3

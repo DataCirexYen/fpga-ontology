@@ -1,0 +1,5 @@
+id,kind,rule,source,applies_to
+R-BITEXACT,binding,Every hardware result is bit-exact against the CPU golden model over the full regression set.,docs/verification.md,all
+R-TIMING,binding,WNS is non-negative at the target clock. No timing waiver without a signed note.,docs/timing.md,all
+R-CDC,binding,Zero unwaived CDC critical warnings in the final report.,docs/timing.md,all
+R-POWER-U55C,release-hold,U55C board power stays under 150 W at the target clock before the card leaves the lab.,docs/power.md,U55C-01

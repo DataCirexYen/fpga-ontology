@@ -1,0 +1,4 @@
+id,name,language,interface,clock_mhz,golden_model,description
+K-AESGCM,AES-256-GCM encrypt,RTL,AXI4-Stream,300,golden/aes_gcm.py,Pipelined AES-256 in GCM mode with inline tag generation
+K-LDPC,LDPC decoder 5G NR,HLS,AXI4 m_axi,250,golden/ldpc_ref.c,Layered min-sum decoder for 5G base graph 1
+K-SOBEL,Sobel edge filter,HLS,AXI4-Stream,200,golden/sobel.py,3x3 Sobel convolution over 1080p grayscale frames

@@ -1,0 +1,7 @@
+[
+  {"id": "G0", "name": "Simulation", "criterion": "Testbench passes on every regression vector; CPU golden and RTL agree bit for bit."},
+  {"id": "G1", "name": "Package", "criterion": "Kernel packaged as .xo (or exported .xsa) with a clean interface report.", "requires": "G0"},
+  {"id": "G2", "name": "Hardware emulation", "criterion": "hw_emu run of the full host driver completes with identical outputs.", "requires": "G1"},
+  {"id": "G3", "name": "Hardware build", "criterion": "Timing closed at target clock, zero unwaived CDC criticals, bitstream programs.", "requires": "G2"},
+  {"id": "G4", "name": "Silicon validated", "criterion": "Hardware regression bit-exact against the golden model; power within the board cap.", "requires": "G3"}
+]

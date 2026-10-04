@@ -1,0 +1,19 @@
+{
+  "name": "fpga-ontology",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "6.21.0",
+    "@blueprintjs/icons": "6.14.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

@@ -1,0 +1,4 @@
+id,model,device,memory,address,host,power_cap_w,status
+U55C-01,Alveo U55C,xcu55c-fsvh2892-2L-e,16 GB HBM2,pcie:0000:17:00.1,HOST-01,150,In service
+U200-01,Alveo U200,xcu200-fsgd2104-2-e,64 GB DDR4,pcie:0000:65:00.1,HOST-02,225,In service
+KV260-01,Kria KV260,xck26-sfvc784-2LV-c,4 GB LPDDR4,ssh:kv260-01.lab,HOST-01,15,Bring-up

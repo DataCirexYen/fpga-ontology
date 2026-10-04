@@ -1,0 +1,4 @@
+[
+  {"id": "HOST-01", "name": "Build and lab host", "cpu": "AMD Ryzen 9 7950X", "ram_gb": 128, "os": "Ubuntu 22.04", "xrt": "2025.1", "vitis": "2024.1", "location": "Lab rack U12"},
+  {"id": "HOST-02", "name": "Regression host", "cpu": "Intel Xeon w5-2455X", "ram_gb": 256, "os": "Ubuntu 22.04", "xrt": "2025.1", "vitis": "2024.1", "location": "Lab rack U14"}
+]
