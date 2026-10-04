@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="325" viewBox="0 0 2000 325" role="img" aria-labelledby="title">
+  <title id="title">FPGA Ontology</title>
+  <rect width="2000" height="325" fill="#10151d"/>
+  <text x="88" y="212" fill="#f3f5f7" font-family="Arial, Helvetica, sans-serif" font-size="142" font-weight="700" letter-spacing="-7">FPGA Ontology</text>
+  <path d="M1227 0V325" stroke="#2f3741" stroke-width="4"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M1290 170C1354 170 1364 86 1428 86S1502 239 1566 239S1640 86 1704 86S1778 170 1842 170S1916 86 1980 86" stroke="#303842" stroke-width="3"/>
+    <path d="M1290 163C1354 163 1364 79 1428 79S1502 232 1566 232S1640 79 1704 79S1778 163 1842 163S1916 79 1980 79" stroke="#4c90f0" stroke-width="6"/>
+    <path d="M1290 156C1354 156 1364 72 1428 72S1502 225 1566 225S1640 72 1704 72S1778 156 1842 156S1916 72 1980 72" stroke="#303842" stroke-width="3"/>
+  </g>
+</svg>
