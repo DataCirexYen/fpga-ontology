@@ -2,11 +2,11 @@
 
 <h3 align="center">One connected model of an FPGA project that people and LLM agents read the same way</h3>
 
+<img src="docs/img/ontology.png" alt="Ontology" width="100%">
+
 Boards, kernels, builds, gates, requirements and work-order steps are objects with stable IDs. Every dependency is an explicit link. Every result arrives as an immutable evidence record instead of an overwritten cell, so an agent pointed at the local API sees what is done, what is blocked on what, and the proof behind each claim.
 
 Local-first and free: Python 3.10, SQLite and a browser. The UI is built on Palantir's open-source Blueprint components; this is an independent project, not affiliated with Palantir.
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/chip3d-dark.png"><img src="docs/img/chip3d-light.png" alt="Isometric render of an FPGA package with HBM stacks" width="49.5%"></picture> <img src="docs/img/xc4010-die.jpg" alt="Die of a Xilinx XC4010 FPGA" width="49.5%">
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/h-run-dark.png"><img src="docs/img/h-run-light.png" alt="Run" height="38"></picture>
 
@@ -33,11 +33,11 @@ Open **http://127.0.0.1:8000**. Click **Try example workspace**, or load the FPG
 4. **Actions:** create an operation, then run it from an object's details panel.
 5. **Activity:** inspect imports, before/after changes, and HTTP action responses.
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/chip3d-dark.png"><img src="docs/img/chip3d-light.png" alt="Isometric render of an FPGA package with HBM stacks" width="100%"></picture>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/h-screens-dark.png"><img src="docs/img/h-screens-light.png" alt="Screens" height="38"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/screen-evidence-dark.png"><img src="docs/img/screen-evidence-light.png" alt="Board U55C-01 with its latest power evidence" width="100%"></picture>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/screen-gate-refused-dark.png"><img src="docs/img/screen-gate-refused-light.png" alt="Gate G4 refused because G3 has not passed" width="49.5%"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/screen-ontology-dark.png"><img src="docs/img/screen-ontology-light.png" alt="Ontology view with observed property shapes" width="49.5%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/h-example-dark.png"><img src="docs/img/h-example-light.png" alt="Example" height="38"></picture>
 
@@ -52,4 +52,4 @@ Open **http://127.0.0.1:8000**. Click **Try example workspace**, or load the FPG
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/h-license-dark.png"><img src="docs/img/h-license-light.png" alt="License" height="38"></picture>
 
-MIT; see [LICENSE](LICENSE). Die photograph: [FPGA chip die (Xilinx XC4010-6)](https://commons.wikimedia.org/wiki/File:FPGA_chip_die_(Xilinx_XC4010-6)_(22054207552).jpg) by htomari, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), cropped.
+MIT; see [LICENSE](LICENSE).
